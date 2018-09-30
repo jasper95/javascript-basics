@@ -2,7 +2,7 @@ test1()
 // test2()
 // test3()
 
-// console.log('@a-global', a)
+console.log('@a-global', a)
 
 
 // var
@@ -11,13 +11,13 @@ function test1() {
     if (false) { //try true
         var y = 3
         var z = 1
-        a = 2
     } else {
         y = 2
-        console.log('@z', z)
+        a = 2
     }
-    console.log('@a-test1', a)
-    console.log('@y', y)
+    // console.log('@a-test1', a) // error
+    console.log('@y', y) // 2
+    console.log('@z', z) // undefined
 }
 
 
