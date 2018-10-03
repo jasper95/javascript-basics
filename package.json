@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasper95/javascript-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasper95/javascript-basics/issues"
+  },
+  "homepage": "https://github.com/jasper95/javascript-basics#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
